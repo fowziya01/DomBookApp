@@ -1,0 +1,1 @@
+export const baseUrl="https://shine-ballistic-vessel.glitch.me";

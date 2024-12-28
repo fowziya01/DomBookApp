@@ -20,3 +20,19 @@ text-decoration: none;
 color: blue;
 
 }
+h2{
+    margin: auto;
+    text-align: center;
+}
+#login-form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+#lform{
+    background-color: rgb(137, 137, 241);
+    height:fit-content;
+}

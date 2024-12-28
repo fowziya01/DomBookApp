@@ -5,14 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/DomBookApp/styles/style.css">
+    <link rel="stylesheet" href="/DomBookApp/styles/admin.css">
 
 </head>
 <body>
     <div id="nav">
-        
-    </div>
+        </div>
+        <div id ="a-form">
+            <h2>Admin Management Page...</h2>
+                <form id="admin-form">
+                    <input id="title" type="text" placeholder="Title">
+                    <input  id="author" type="text" placeholder="Author">
+                    <input id="status" type="text" placeholder="status">
+                    <input id="verify" type="text" placeholder="verify">
+                    <input id="days" type="text" placeholder="barrowedDays">
+                    <input id="image" type="image" placeholder="https://m.media-amazon.com/images/I/71ZB18P3inL._SY522_.jpg">
+
+
+ 
+                    <select id="select">
+    <option value="">select category</option>
+    <option value="fiction">Fiction</option>
+    <option value="comedy">Comedy</option>
+    <option value="technical">Technical</option>
+
+</select>
+        <input type="submit" value="submit form">
+                </form>
+            </div>
     
 </body>
 <script src="/DomBookApp/scripts/navbar.js" type="module"></script>
-
+<script src="/DomBookApp/scripts/admin.js" type="module"></script>
 </html>
